@@ -162,7 +162,6 @@ const BPOProjectInfo = () =>{
   )
 }
 
-
 const App = () => {
   const [isAllowedToView, setIsAllowedToView] = useState(false);
   const password = 2005;
