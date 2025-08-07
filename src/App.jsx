@@ -30,7 +30,7 @@ const TopBar = ({ scrollToSection, section1Ref, section2Ref, section3Ref }) => {
 const Home = () => {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-8 mb-8 flex flex-col items-center">
-      <img src="./Orest.png" alt="Orest" className="mb-6 rounded-full w-36 h-36 object-cover border-4 border-sky-300 shadow" />
+      <img src="/Orest.png" alt="Orest" className="mb-6 rounded-full w-36 h-36 object-cover border-4 border-sky-300 shadow" />
       <div className="text-sky-800 font-serif">
         <span className="block text-2xl font-bold mb-3 underline decoration-sky-400">Дякую, що хоч розгадав код і зайшов сюда</span>
         <p className="text-lg italic leading-relaxed mb-4">
@@ -137,7 +137,7 @@ const DotaStats = () => {
 const BPOProjectInfo = () =>{
   return(
     <div className="bg-white rounded-2xl shadow-lg p-8 mb-8 flex flex-col items-center">
-      <img src="./YoungOrest.jpg" className="mb-6 rounded-full w-28 h-28 object-cover border-4 border-sky-300 shadow"/>
+      <img src="/YoungOrest.jpg" className="mb-6 rounded-full w-28 h-28 object-cover border-4 border-sky-300 shadow"/>
       <div className="text-sky-800 font-serif text-left">
         <span className="block text-2xl font-bold mb-3 underline decoration-sky-400">
           Тепер трохи про цей проєкт (AKA твій день народження)
